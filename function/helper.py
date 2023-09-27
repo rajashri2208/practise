@@ -3,4 +3,5 @@ def sort():
     for x in range(10):
         print(f"{x}")
 print("this new line added")
+print('new function will be added soon')
 
