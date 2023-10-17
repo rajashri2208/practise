@@ -105,7 +105,7 @@ from flask import Flask
 
 app = Flask(__name__)  ### WSGI app
 @app.route('/') # API # Default API
-def one():
+def index():
     return "API SUCCESS"
 
 
