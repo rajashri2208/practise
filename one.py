@@ -15,7 +15,6 @@
 #     app.run()
 
 
-
 # @app.route(url,options) 
 # e.g. url == '/' or '/predict' or '/app/result'
 # options == rules to handle the request 
@@ -110,4 +109,4 @@ def index():
 
 
 if __name__ == '__main__':
-    app.run(host = '127.0.0.1' , port = 8080 , debug=True)
+    one.run(host = '127.0.0.1' , port = 8080 , debug=True)
