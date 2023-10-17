@@ -104,9 +104,9 @@ from flask import Flask
 
 app = Flask(__name__)  ### WSGI app
 @app.route('/') # API # Default API
-def index():
+def one():
     return "API SUCCESS"
 
 
 if __name__ == '__main__':
-    one.run(host = '127.0.0.1' , port = 8080 , debug=True)
+    app.run(host = '127.0.0.1' , port = 8080 , debug=True)
