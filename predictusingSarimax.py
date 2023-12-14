@@ -1,4 +1,4 @@
-rom statsmodels.tsa.statespace.sarimax import SARIMAX
+from statsmodels.tsa.statespace.sarimax import SARIMAX
 import matplotlib.pyplot as plt
 
 # Assuming 'time_series_data' contains both time series and calendar covariates as previously described
